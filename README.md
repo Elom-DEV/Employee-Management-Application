@@ -1,53 +1,83 @@
-# Projet : Application de Gestion des Employés
+# Projet :Rapport sur l'Application de Gestion des Employés
 
-Une application pour gérer les employés d’une entreprise. Ce projet utilise les concepts de la **programmation orientée objet (POO)**, avec une structure claire et un code facilement maintenable.
+# 1. Introduction
 
----
+L'application de gestion des employés est un programme en Java permettant d'ajouter, modifier, supprimer et afficher des employés via un menu interactif en console. Ce projet a été développé dans un cadre pédagogique pour illustrer la manipulation des objets, les tableaux et l'interaction utilisateur en Java.
 
-## Objectifs de l'application
+## 2. Objectifs de l'application
 
-1. **Ajouter un employé**  
-   Créer un nouvel objet `Employe` et l’ajouter au tableau.  
+L'objectif principal de cette application est de fournir une gestion basique des employés sans utiliser de base de données ni d'interface graphique. Elle permet de :
+
+      - Ajouter de nouveaux employés
+
+      -Modifier les informations d'un employé
+
+      -Supprimer un employé
+
+      -Afficher la liste des employés
+
+      -Rechercher un employé par nom ou poste
+
+      -Calculer la masse salariale totale
+
+      -Trier les employés par salaire
+# 3. Technologies Utilisées
+      •	Langage : Java
+      •	Environnement de développement :  IntelliJ IDEA 
+      •	Concepts appliqués : Programmation orientée objet (POO), utilisation des tableaux, gestion des entrées utilisateur   
+# 4. Fonctionnalités
+
+   **4.1. Structure du Programme**
+   
+       L'application est composée de deux classes principales :
+         •	Employé : représente un employé avec des attributs (ID, nom, poste, salaire) et des méthodes associées.
+         •	Gestion Employés : contient le menu principal et les méthodes pour gérer les employés.
+
+   **4.2. Déroulement du Programme**
+   
+      1.	L'utilisateur exécute le programme via la console.
+      2.	Un menu interactif s'affiche, proposant différentes options.
+      3.	L'utilisateur choisit une action en entrant un numéro correspondant.
+      4.	Le programme effectue l'opération demandée et affiche les résultats en console.
+      5.	L'utilisateur peut répéter les actions jusqu'à quitter l'application.
+
+    
+
+ **4.3. Gestion des Employés**  
+ 
+ **-Ajout** : L'utilisateur entre l'ID, le nom, le poste et le salaire d'un employé. 
+   
    ![Ajouter un employé](capture/ajouter-emp.png)
 
-2. **Modifier un employé**  
-   Mettre à jour les informations d’un employé existant à l’aide de son **identifiant unique**.  
+ **-Modification** :: Recherche d'un employé par ID et mise à jour de ses informations. 
+ 
    ![Modifier un employé](capture/modifier-empl.png)
 
-3. **Supprimer un employé**  
-   Retirer un employé du tableau grâce à son **identifiant unique**.  
+ **-Suppression**  : Suppression d'un employé en fonction de son ID
+ 
    ![Supprimer un employé](capture/sup-empl.png)
 
-4. **Afficher la liste des employés**  
-   Afficher tous les employés avec leurs détails.  
+ **-Affichage**  :Liste de tous les employés enregistrés.
+   
    ![Afficher la liste](capture/list-empl.png)
 
-5. **Rechercher un employé**  
-   Trouver un employé par son **nom** ou son **poste**.  
+ **-Recherche**  :Recherche d'un employé par nom ou poste.
+    
    ![Rechercher un employé](capture/chercher-emp.png)
 
-6. **Calculer la masse salariale**  
-   Calculer la somme totale des **salaires mensuels** des employés.  
+ **-Calcul de la masse salariale**: Addition de tous les salaires des employés.
+
    ![Calculer la masse salariale](capture/masse-sal.png)
 
-7. **Trier les employés**  
-   Afficher les employés triés par **salaire** (ordre croissant ou décroissant).  
+ **-Tri des employés** : Possibilité de trier par salaire en ordre croissant ou décroissant.
+
    ![Trier les employés](capture/Trier-empl.png)
 
----
+   ## 6. Conclusion
+   
+Cette application console en Java illustre les bases de la gestion des employés en programmation orientée objet. Bien qu'elle soit limitée, elle constitue un bon point de départ pour un projet plus avancé avec une base de données et une interface utilisateur.
 
-## Technologies utilisées
 
-- **Langage** : Java
-- **Paradigme** : Programmation orientée objet (POO)
 
----
-
-## Organisation du code
-
-- **Classe Employe** : Contient les attributs et méthodes liés à un employé (nom, poste, salaire, etc.).
-- **GestionEmployes** : Contient les opérations CRUD et les calculs pour gérer les employés.
-
----
 
 
